@@ -1,0 +1,22 @@
+{
+  "name": "romnom",
+  "version": "0.1.0",
+  "authors": [
+    "Dan Pickett <dan.pickett@launchacademy.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "foundation": "~5.5.2",
+    "jquery": "~2.1.4",
+    "slick-carousel": "~1.5.8"
+  }
+}

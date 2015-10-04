@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:ng="http://angularjs.org">
 <head>
   <title>Sample</title>
   <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self'; style-src 'self' 'unsafe-inline';">
+  <link rel="stylesheet" href="../vendor/foundation/css/normalize.css"
+    media="screen">
+  <link rel="stylesheet" href="../vendor/foundation/css/foundation.css"
+    media="screen">
+  <link rel="stylesheet" href="../vendor/slick-carousel/slick/slick.css"
+    media="screen">
+  <link rel="stylesheet" href="../vendor/slick-carousel/slick/slick-theme.css"
+    media="screen">
+
   <link rel="stylesheet" href="index.less" media="screen" title="no title" charset="utf-8">
+  <script src="../vendor/angular/angular.min.js"></script>
   <script src="./index.js"></script>
 </head>
-<body tabindex="-1">
+<body ng-app="RomNom" tabindex="-1">
+  <div class="row core-list" ng-controller="CoreListCtrl">
+    <div class="core columns large-12" carousel ng-repeat="core in cores" id="{{ core.id }}" class="core">
+      <div class="console-photo"></div>
+      <div>
+        <h1>{{ core.name }}</h1>
+      </div>
+    </li>
+  </div>
+</body>
 </body>
 </html>

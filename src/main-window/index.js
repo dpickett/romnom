@@ -1,5 +1,13 @@
+import CoreListCtrl from '../controllers/core-list-ctrl.js';
+import Carousel from '../directives/carousel.js'
+
+let RomNom = angular.module('RomNom', []);
+RomNom.directive('carousel', Carousel);
+RomNom.controller('CoreListCtrl', CoreListCtrl);
+
 window.onload = () => {
-  Main = require('./main');
-  element = new Main().getElement();
-  document.body.appendChild(element);
+  angular.bootstrap(RomNom);
+  // $ = require('jquery');
+  // element = new Main().getElement();
+  // $(document.body).append(element);
 }
