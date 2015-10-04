@@ -1,4 +1,4 @@
-# Electron Sample.app
+# RomNom - An Electron Based Emulation Frontend
 
 This is a sample app
 

@@ -1,12 +1,12 @@
 {
-  "name": "sample",
-  "appName": "Sample",
+  "name": "RomNom",
+  "appName": "RomNom",
   "version": "0.0.1",
   "main": "main.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/benogle/electron-sample.git"
+    "url": "https://github.com/dpickett/romnom"
   },
   "scripts": {
     "test": "script/test"
@@ -23,6 +23,7 @@
     "electron-rebuild": "^0.2.5"
   },
   "dependencies": {
+    "jquery": "^2.1.4",
     "yargs": "^3.16.1"
   }
 }
